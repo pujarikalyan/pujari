@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)file:///D:/JavaScript/operators.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>operators</h2>
+    <ul>
+        <li>Arithemetic operator</li>
+        <li>Assignment operator</li>
+        <li>comparison operator</li>
+        <li>Logical operator</li>
+        <li>Ternary operator</li>
+    </ul>
+    <h3>Arithemetic operator</h3>
+    <ul>
+        <li>Addition(+)</li>
+        <li>Substraction(-)</li>
+        <li>Multiplicatin(*)</li>
+        <li>Modulus(/)</li>
+        <li>Exponentation(**)</li>
+        <li>Increment(++)</li>
+        <li>Decrement(--)</li>
+    </ul>
+    <script>
+        //Addition
+        // var a=10;
+        // var b=20;
+        // var c=a+b;
+        // console.log(c);
+    //Substraction
+    //  var a=20;
+    //  var b=10;
+    //  var c=a-b;
+    //  console.log(c);
+     //Modulus
+    //  let a=10;
+    //  let b=2;
+    //  let c=a/b;
+    //  console.log(c);
+     //Exponentation
+    //  var a=10;
+    //  var b=5;
+    //  var c=a**b;
+    //  console.log(c);
+     //Increment
+    //  var a=10
+    //  var b=++a;
+    //  console.log(b);
+    //  var x=20;
+    //  var y=x++;
+    //  console.log(y);
+     //Decrement
+    //  var a=2;
+    //  var y=a--;
+    //  console.log(y);
+    //  var b=20
+    //  var z=--b;
+    //  console.log(z);
+
+    
+
+    </script>
+    <script>
+        //Assignment Operator
+     var a=10;
+     //a=a+5;
+     a+=5;
+     //a=a-4;
+     a-=4;
+     //a=a*3
+     a*=3
+     //a=a/2;
+     a/=2;
+     //a=a**5;
+    a**=5;
+  
+     //console.log(a);
+    </script>
+    <script>
+       // comparison operator
+
+    //    var a=10;
+    //    var b=20;
+    //    console.log(a>b); //false
+    //    console.log(a<b); //true
+    //    console.log(a==b); //false
+    //    console.lof(a>=b); //false
+    //    console.log(a<=b); //true
+          
+
+
+
+       var z=10;
+       var y=20;
+       // == compare the value
+       // === compare value and both data type
+      // console.log("value==>",z===y)
+      console.log("value of ==>" ,z==y)
+    </script>
+    <script>
+        // Logical Operator AND && , OR || , NOT !
+         
+        //falsy ==> "",0,null,undefined,false
+
+        //AND && ==> it will search the false value if false value not their it will display the last true value
+        // var a="atp";
+        // var b=0;
+        // var c=10;
+        // var d=null;
+        // var e=false;
+
+        //console.log(a && c && d && c);
+        //console.log( c && b && a);
+             // OR || ==> it will search the true value if true value is not their it will display the last false value
+      //console.log(e || d || b || c);
+
+      // NOT !
+       
+    //   var a=10;
+    //   var b="10";
+    //   console.log(!(a==b));
+     // console.log(!(a===b));
+     //console.log(!(a>b));
+
+
+    </script>
+    <script>            
+        //Ternary Operator
+        // var abc=condition ? true :false
+        var marks =30;
+        var res= (marks>=35) ?"pass":"fail";
+        (marks<=40) ? "fail" :"pass";
+        //console.log(res);
+    </script>
+    <script>
+        //<35 fail
+        //>=35 to<50 c grade
+        //>=50 to <75 b grade
+        // >=75 to <=100 a grade
+
+        var marks=105;
+        var res= (marks<35) ? "fail":
+        (marks>=35 && marks<50) ? "C grade":
+        (marks>=50 && marks<75) ? "B grade":
+       (marks>=75 && marks<=100) ? "A grade":"please enter correct marks"
+
+       //console.log(res);
+    </script>
+
+</body></html>
